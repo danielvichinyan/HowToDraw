@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008577"
+    tools:context=".IntroActivity">
+
+    <Button
+        android:id="@+id/buttonClickToDraw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginRight="161dp"
+        android:layout_marginBottom="349dp"
+        android:layout_weight="1"
+        android:text="Draw!"
+        tools:text="Draw!" />
+
+    <TextView
+        android:id="@+id/textViewAppIntro"
+        android:layout_width="match_parent"
+        android:layout_height="321dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="407dp"
+        android:text="The purpose of this project is to present a drawing application. The user is able to draw a picture, adjust the size of the line, as well as to pick a favourite color! Click the button below to start drawing!"
+        android:textSize="0.14in"
+        android:textStyle="bold" />
+
+</RelativeLayout>
